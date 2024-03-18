@@ -84,7 +84,7 @@ const App: React.FC = () => {
   };
 
   return (
-    <div>
+    <div className="home-page">
       <h1>Frontend hiring test</h1>
       <h2>Price Trends Prediction</h2>
       <p><u>Production Date</u>: {productionDate}</p>

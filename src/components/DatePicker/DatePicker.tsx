@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './DatePicker.css';
 
 const DatePicker: React.FC<{ onSelectDate: (date: string) => void }> = ({ onSelectDate }) => {
   const [selectedDate, setSelectedDate] = useState<string>('');
@@ -13,7 +14,7 @@ const DatePicker: React.FC<{ onSelectDate: (date: string) => void }> = ({ onSele
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form className="date-picker" onSubmit={handleSubmit}>
       <input type="date" value={selectedDate} onChange={handleDateChange} />
       <button type="submit">Select Date</button>
     </form>

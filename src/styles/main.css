@@ -6,6 +6,7 @@
   --bg-color: white;
   --text-color: black;
   --font-stack: "Calibri", Arial, sans-serif;
+  --btn-color:
 }
 
 body {
@@ -13,9 +14,15 @@ body {
   color: var(--text-color);
   font: 300 16px/22px var(--font-stack);
   min-height: 100vh;
-  margin: 0;
+  margin: 30px;
 }
 
 *, *::before, *::after {
   box-sizing: border-box;
+}
+
+.home-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
