@@ -1,0 +1,21 @@
+/* ========================================
+  General styles
+======================================== */
+
+:root {
+  --bg-color: white;
+  --text-color: black;
+  --font-stack: "Calibri", Arial, sans-serif;
+}
+
+body {
+  background: var(--bg-color);
+  color: var(--text-color);
+  font: 300 16px/22px var(--font-stack);
+  min-height: 100vh;
+  margin: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
