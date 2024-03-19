@@ -1,5 +1,4 @@
-# Frontend hiring test :
-# Price Trends Prediction App
+# Frontend test : Price Trends Prediction App
 
 This application allows users to view price trends for raw materials based on selected dates.
 It utilizes a mock API server to fetch price trend data.

@@ -6,14 +6,12 @@
   --bg-color: white;
   --text-color: black;
   --font-stack: "Calibri", Arial, sans-serif;
-  --btn-color:
 }
 
 body {
   background: var(--bg-color);
   color: var(--text-color);
   font: 300 16px/22px var(--font-stack);
-  min-height: 100vh;
   margin: 30px;
 }
 

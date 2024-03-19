@@ -57,7 +57,7 @@ const App: React.FC = () => {
         const outputId = outputs.results[0].id;
         const trendsResponse = await fetch(`${url}/${runId}/outputs/${outputId}/trends`);
 
-        // Case 4: Temporary solution for backend bug : 05/10/2021
+        // Case 4: Temporary solution for backend bug : 05/01/2021
         if (!trendsResponse.ok) {
           setTrends([]);
           setMessage('No run available for this date');
